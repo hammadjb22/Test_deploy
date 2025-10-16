@@ -5,9 +5,9 @@ const PORT = process.env.PORT || 3000;
 // Basic route
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello World from Node.js!',
+    message: 'Hello World from Node.jsss!',
     timestamp: new Date().toISOString(),
-    environment: process.env.NODE_ENV || 'development'
+    environment: process.env.NODE_ENV || 'developments'
   });
 });
 
